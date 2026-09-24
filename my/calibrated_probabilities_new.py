@@ -1,3 +1,9 @@
+# This script extracts the model predictions and calibrated probabilities produced by the ResPredAI run for Target4.
+# It generates calibration and ROC plots, and saves the extracted probabilities.
+# It's possibile to compare the theoretical probabilities ('prob_Target4.csv') with the predicted probabilities. 
+# To extract the predicted probabilities, run the 'feature-importance' command of respredai for Target4 and find the probabilities: 
+# python -m respredai.cli feature-importance --output my/out_run_LR_3x2_new --model LR --target Target4 --direction
+
 
 import numpy as np
 import pandas as pd

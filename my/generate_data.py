@@ -1,3 +1,8 @@
+# This script generates the synthetic dataset 'test_data.csv' used to test ResPredAI.
+# It creates the predictor variables and the four target variables, and saves the resulting data in test_data.csv.
+# It also saves the theoretical probabilities for Target4 in 'prob_Target4.csv.'
+
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
